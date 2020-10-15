@@ -5,10 +5,15 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+pytest-django = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [packages]
 django = "*"
 gunicorn = "*"
+python-decouple = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.8.6"
+CODECOV_TOKEN="acd78e66-3b5d-4a38-8267-d9e537d907f3"
